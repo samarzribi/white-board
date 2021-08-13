@@ -1,57 +1,10 @@
 body {
     background-image: url('pinboard.jpg');
    height: 150px;
+}
  
 
     
-   
-    
-}
-#image{
-    height: 200px;
-    margin-top: 200px;
-    margin-left: 200px;
-}
-#red {
-    background-color: white;
-    color: black;
-    border: 2px solid red;
-}
-
-#blue{
-    background-color: white;
-    color: black;
-    border: 2px solid blue
-}
-#yellow {
-    background-color: white;
-    color: black;
-    border: 2px solid yellow
-}
-#rakia {
-  width: 200px;
-  margin-top: 20px;
-}
-#ali {
-  width: 200px;
-  margin-top: 20px;
-  margin-left: 30px;
-}
-#wajdi {
-  width: 200px;
-  margin-top: 20px;
-  margin-left: 40px;
-}
-#Houda {
-  width: 200px;
-  margin-top: 20px;
-  margin-left: 80px;
-}
-#kais {
-  width: 200px;
-  margin-top: 20px;
-  margin-left: 100px;
-}
 
 body {
   font-family: helvetica, arial, sans-serif;
@@ -96,3 +49,30 @@ a:after {
   border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
   box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
 }
+#show{
+  
+  height: 50px;
+  width: 100px;
+}
+#red {
+  background-color: red;
+  border-radius: 50%;
+  height: 50px;
+  width: 100px;
+}
+#blue {
+  background-color:blue;
+  border-radius: 50%;
+  height: 50px;
+  width: 100px;
+}
+#yellow {
+  background-color :yellow;
+  border-radius: 50%;
+  height: 50px;
+  width: 100px;
+
+}
+
+
+

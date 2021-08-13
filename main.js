@@ -1,7 +1,7 @@
 var cohort16=[
 
-    {name:'ghofran'},
-    {name: 'aziz'},
+    {name:'Ghofran'},
+    {name: 'Aziz'},
     {name: 'fawez'},
     {name: 'amin'},
     {name: 'firas'},
@@ -12,18 +12,28 @@ var cohort16=[
     {name: 'taieb'},
     {name: 'slim'},
     {name: 'lilia'},
-    {name: ''},
+    {name: 'aymen'},
 
 ]
 
 
 
-$('#btn').click(function(){
+$('#show').click(function(){
     for(var i=0; i<cohort16.length;i++){
         var student=cohort16[i].name
     $('#div1').append('<div>'+student+'</div>')
     }
+    });
+
+
+    var student1=cohort16.name
+$('student').click(function(){
+    for(var i=0; i<cohort16.length;i++){
+       
+    $('#div1').append("<img src=''background.jpg'><'/img>")
+    }
 });
+
 
 
 
