@@ -1,39 +1,33 @@
 var cohort16=[
 
-    {name:'Ghofran'},
-    {name: 'Aziz'},
-    {name: 'fawez'},
-    {name: 'amin'},
-    {name: 'firas'},
-    {name: 'raoua'},
-    {name: 'rima'},
-    {name: 'samar'},
-    {name: 'sahar'},
-    {name: 'taieb'},
-    {name: 'slim'},
-    {name: 'lilia'},
-    {name: 'aymen'},
+    {name:'Ghofran', url:"student1.jpg"},
+    {name: 'raoua',url:"student3.jpg"},
+    {name: 'Heni' , url :"student4.jpg"}
 
 ]
 
 
 
+
 $('#show').click(function(){
     for(var i=0; i<cohort16.length;i++){
-        var student=cohort16[i].name
-    $('#div1').append('<div>'+student+'</div>')
+        var student=cohort16[i].url
+    $('#div1').append('<img stye :" height" :"300px" , "widh":"100px" src='+student+'>')
     }
     });
 
 
-    var student1=cohort16.name
-$('student').click(function(){
-    for(var i=0; i<cohort16.length;i++){
-       
-    $('#div1').append("<img src=''background.jpg'><'/img>")
-    }
-});
+    var counter = 0;
 
+    function onClick() {
+      counter += 1;
+      document.getElementById("click").innerHTML = counter;
+      if(counter >=5 ){
+          counter=0
+      }
+    
+      
+    };
 
 
 
@@ -58,6 +52,40 @@ var consequencesOfpins =function(name){
         delete this.student[name] 
     }
 }
+
+var counte=0
+$('#red').click(function(type){
+    $(btns1).append()
+    
+
+
+});
+
+var counter = 0;
+
+function onClick() {
+  counter += 1;
+  document.getElementById("click").innerHTML = counter;
+  if(counter >=5 ){
+      counter=0
+  }
+
+  
+};
+var counter = 0;
+
+function onClick() {
+  counter += 1;
+  document.getElementById("click").innerHTML = counter;
+  if(counter >=5 ){
+      counter=0
+  }
+
+  
+};
+
+
+
 
 var addpins=function(type){
 this.pins[type]++

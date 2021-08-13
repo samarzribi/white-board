@@ -73,6 +73,28 @@ a:after {
   width: 100px;
 
 }
+#student {
+  height: 300px;
+  width: 400px;
+}
+#student3 {
+  height: 300px;
+  width: 400px;
+  margin-left: 50px;
+}
+#btns2 {
+  margin-left: 490px;
+  margin-top: -2%;
+}
+#student4 {
+  height: 300px;
+  width: 400px;
+  margin-left: 50px;
+}
+#btns3 {
+  margin-left: 950px;
+  margin-top: -4%;
+}
 
 
 
