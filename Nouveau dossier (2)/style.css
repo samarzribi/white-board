@@ -1,0 +1,221 @@
+body {
+    background-image: url('pinboard.jpg');
+   height: 150px;
+}
+ 
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-color: #2e2e31;
+  margin-top: 500px;
+}
+
+/* a {
+  color: #fffbf1;
+  text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+  font-size: 80px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+a:before,
+a:after {
+  content: '';
+  padding: .9em .4em;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 15px solid red;
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: 10s infinite alternate ease-in-out tipsy;
+}
+
+a:before {
+  border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+a:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
+  box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+} */
+#show{
+  
+  height: 50px;
+  width: 100px;
+}
+#red {
+  background-color: red;
+  border-radius: 50%;
+  height: 50px;
+  width: 100px;
+}
+#blue {
+  background-color:blue;
+  border-radius: 50%;
+  height: 50px;
+  width: 100px;
+}
+#yellow {
+  background-color :yellow;
+  border-radius: 50%;
+  height: 50px;
+  width: 100px;
+
+}
+#student {
+  height: 300px;
+  width: 400px;
+}
+#student3 {
+  height: 300px;
+  width: 400px;
+  margin-left: 50px;
+}
+#btns2 {
+  margin-left: 490px;
+  margin-top: -2%;
+}
+#student4 {
+  height: 300px;
+  width: 400px;
+  margin-left: 50px;
+}
+#btns3 {
+  margin-left: 950px;
+  margin-top: -4%;
+}
+#div1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 500px;
+}
+.item{
+ width: 350px;
+ height: 300px;
+}
+* {
+  box-sizing: border-box;
+}
+
+ Style the search field 
+ form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+ Style the submit button 
+ form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; 
+   cursor: pointer;
+} 
+
+form.example button:hover {
+  background: #0b7dda;
+} */
+
+Clear floats
+
+ form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+#form{
+  list-style:none; 
+  display: inline-flex; 
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px; 
+  border-style:solid;
+  border-color: rgba(133, 11, 11, 0.781);
+  border-radius: 1em;
+  margin: 1em;
+  margin-left: 10%;
+  padding: 1em;
+  width:75%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  
+
+}
+#textT, #textA, #textP {
+  margin-top: 1em;
+  color:rgba(133, 11, 11, 0.781);
+  font-family: 'Dancing Script', cursive;
+}
+h1{
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+img{
+  height: 30em;
+  width: 20em;
+  border-radius: 2em;
+}
+
+.editBtn{
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(91, 182, 17);;
+  display:table-column-group;
+  font-weight:800;
+  border: 0.25em solid;
+  cursor: pointer;
+  box-shadow: 0 0.25em 0.75em grey;
+  border-radius: 100%;
+  font-size: 0.8em;
+  padding: 0.5em;
+  margin-left: -20em;
+  margin-top: -50em;
+}
+
+#container div{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  display:inline-block;
+  font-size: 1em;
+  margin: 1em;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-top: 6em;
+  background-image: url('photos/feuille.jpg');
+  border-radius: 1.5em;
+}
+#addBtn{
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(25, 102, 31);;
+  display:inline-block;
+  font-weight:800;
+  border: 0.25em solid;
+  cursor: pointer;
+  box-shadow: 0 0.25em 0.75em grey;
+  border-radius: 100%;
+  font-size: 0.8em;
+  padding: 0.5em;
+
+}
